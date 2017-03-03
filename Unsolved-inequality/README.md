@@ -43,3 +43,23 @@ None | `11m 40.775s`
 `-Ofast` | `1m 47.860s`
 
 So, use `-Ofast` or `-O3` unless you have time to kill.
+
+	g++ -o Unsolved-inequality -Wall -std=c++14 -Ofast Unsolved-inequality.cpp
+	real	1m47.860s
+	user	1m47.856s
+
+	g++ -o Unsolved-inequality -Wall -std=c++14 -O3 Unsolved-inequality.cpp
+	real	1m50.419s
+	user	1m50.316s
+
+	g++ -o Unsolved-inequality -Wall -std=c++14 -O2 Unsolved-inequality.cpp
+	real	2m47.888s
+	user	2m47.840s
+
+	g++ -o Unsolved-inequality -Wall -std=c++14 -O1 Unsolved-inequality.cpp
+	real	3m59.017s
+	user	3m59.000s
+
+	g++ -o Unsolved-inequality -Wall -std=c++14 Unsolved-inequality.cpp
+	real	11m40.775s
+	user	11m40.576s
