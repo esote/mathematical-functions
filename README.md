@@ -8,7 +8,7 @@ A few C++ programs for computing mathematical functions. These programs are test
 
 The following inequality resulted from [Waring's problem](https://en.wikipedia.org/wiki/Waring%27s_problem).
 
-From [Wikipedia](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions#Unsolved_problem):
+Paraphrased from [Wikipedia](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions#Unsolved_problem):
 
 > Are there any positive integers *k* ≥ 6 such that:
 
