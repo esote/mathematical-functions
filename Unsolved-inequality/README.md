@@ -6,7 +6,7 @@ Paraphrased from [Wikipedia](https://en.wikipedia.org/wiki/Floor_and_ceiling_fun
 
 > Are there any positive integers *k* ≥ 6 such that:
 
-> ![`3^{k}-2^{k}\left\lfloor \left({\tfrac {3}{2}}\right)^{k}\right\rfloor >2^{k}-\left\lfloor \left({\tfrac {3}{2}}\right)^{k}\right\rfloor -2`](equations/unsolved-inequality.png)
+> ![`3^{k}-2^{k}\left\lfloor \left({\tfrac {3}{2}}\right)^{k}\right\rfloor >2^{k}-\left\lfloor \left({\tfrac {3}{2}}\right)^{k}\right\rfloor -2`](../equations/unsolved-inequality.png)
 
 > Mahler proved there can only be a finite number of *k*; none are known.
 
