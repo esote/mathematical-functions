@@ -4,7 +4,7 @@ A few C++ programs for computing mathematical functions. These programs are test
 
 ## Functions
 
-## Unsolved inequality
+### Unsolved inequality
 
 The following inequality resulted from [Waring's problem](https://en.wikipedia.org/wiki/Waring%27s_problem).
 
