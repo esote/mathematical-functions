@@ -5,3 +5,4 @@ A few C++ programs for computing mathematical functions. These programs are test
 ## Functions
 
 - Unsolved inequality (as far as I know, it has no name)
+- The Lambert W function
