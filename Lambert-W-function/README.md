@@ -10,7 +10,7 @@ In my programs, I do not include imaginary results. I use the Boost multiprecisi
 
 # Lambert-W-function-v1
 
-First, the program gets the value of *x* in the form of a string. It then checks if the string contains more than one decimal mark using the `string::find`` function. Then, I check if the string is in the format of a decimal fraction (so not the letter "z" or something) by converting it to a double in a try-catch block. If the string is in the proper format, I convert it to the `arbFloat` data type. The number is checked to see if it is less than zero (which would return a complex number). I also put a bound of x <= 10^9 because there's an issue with larger values halting the program (fixed in later versions).
+First, the program gets the value of *x* in the form of a string. It then checks if the string contains more than one decimal mark using the `string::find` function. Then, I check if the string is in the format of a decimal fraction (so not the letter "z" or something) by converting it to a double in a try-catch block. If the string is in the proper format, I convert it to the `arbFloat` data type. The number is checked to see if it is less than zero (which would return a complex number). I also put a bound of x <= 10^9 because there's an issue with larger values halting the program (fixed in later versions).
 
 Inside of the for loop:
 
@@ -80,7 +80,7 @@ With these improvements, the value of *W(x)* within a computable range can be ca
 
 # Lambert-W-function-v3
 
-Changes:
+Changes from v2:
 
 - Moved declaration of `wnew` to its first usage.
 - Switched if-else to the ternary operator `?:`.
@@ -107,7 +107,7 @@ This should not improve performance too much, but it is cleaner than it was befo
 	
 # Lambert-W-function-v4
 
-Changes:
+Changes from v3:
 
 - Clarified and removed a couple comments
 - Switch from using `return 2` and `return 3` to `return returnID::invalidString` and `return returnID::invalidNumber` respectively. The use of an `enum` makes the intentions clearer.
