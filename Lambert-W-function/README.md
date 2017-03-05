@@ -1,3 +1,7 @@
+A cleaner version of this README will be linked here eventually.
+
+---
+
 The Lambert W function, also called the omega function or product logarithm, is the inverse of the function *f(W)=We^W*. It is used as the solution to many problems that cannot be solved using normal methods.
 
 The Lambet W function can be approximated using Newton's method and Halley's method. These use use successive approximation to converge towards the value of *W(x)*, meaning that given an infinite amount of approximations it will be completely accurate to all decimal places.
