@@ -1,6 +1,6 @@
 # Mathematical Functions
 
-A few C++ programs for computing mathematical functions. These programs are tested on Ubuntu 16.04 and compiled using `g++` with C++14 unless stated otherwise.
+A few C++ programs for computing mathematical functions. These programs are tested on Ubuntu 16.04 and compiled using `g++` with C++14.
 
 ## Functions
 
