@@ -4,7 +4,7 @@ A cleaner version of this README will be linked here eventually.
 
 The Lambert W function, also called the omega function or product logarithm, is the inverse of the function *f(W)=We^W*. It is used as the solution to many problems that cannot be solved using normal methods.
 
-The Lambet W function can be approximated using Newton's method and Halley's method. These use use successive approximation to converge towards the value of *W(x)*, meaning that given an infinite amount of approximations it will be completely accurate to all decimal places.
+The Lambert W function can be approximated using Newton's method and Halley's method. These use successive approximation to converge towards the value of *W(x)*, meaning that given an infinite amount of approximations it will be completely accurate to all decimal places.
 
 In my programs, I do not include imaginary results. I use the Boost multiprecision library to allow for theoretically unlimited precision. To change the precision, simply change the value of `const int PRECISION`.
 
@@ -54,7 +54,7 @@ Changes from v1:
 	5. If the user intentionally entered "NaN".
 - In the Boolean function `isNumberValue`, I am now checking the following things:
 	1. If the input is less than 0, which results in a complex number.
-	2. If the input is infinity (or at least percieved as infinity), this is the result of inputs like 10^10^9 (which is smaller than the catch for parsing errors, but too large to be computed), or if the value "inf" is intentinally entered.
+	2. If the input is infinity (or at least perceived as infinity), this is the result of inputs like 10^10^9 (which is smaller than the catch for parsing errors, but too large to be computed), or if the value "inf" is intentionally entered.
 - Originally, it started computing at 0, but now it has a starting guess if the input is not equal to 0 or 1
 - Replaced for loop with do-while loop, because the limit of 1 < 1e99 is unnecessary with other range checks.
 - Originally, I used Boost `.convert_to<>()` for the string-to-`arbFloat` conversion, but now I use `static_cast`. The string-to-`arbFloat` has been abstracted to an inline function (`resizeArbtoString`).
