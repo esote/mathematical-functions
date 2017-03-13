@@ -4,5 +4,6 @@ A few C++ programs for computing mathematical functions. These programs are test
 
 ## Functions
 
-- Unsolved inequality (as far as I know, it has no name)
+- The Ackermann-Péter function
 - The Lambert W function
+- Unsolved inequality (as far as I know, it has no name)
