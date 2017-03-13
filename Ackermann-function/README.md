@@ -25,7 +25,7 @@ This program is *by far* not optimal.
 
 **This code is simply an adaptation of the code on [Rosetta Code](https://rosettacode.org/wiki/Ackermann_function#Efficient_version), I take no credit for this.** This code, in comparison with the Ackermann-function program, is optimal for both small arugments (`Ack(1,1)`) and large arguments (`Ack(4,2)`).
 
-This adapation allows for user input.
+This adaptation allows for user input.
 
 	Ack(m,n)
 	m = 4
