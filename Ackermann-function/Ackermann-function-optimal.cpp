@@ -1,5 +1,5 @@
 // A majority of this code is from Rosetta Code: https://rosettacode.org/wiki/Ackermann_function#Efficient_version
-// This adapatation allows for user input
+// This adaptation allows for user input
 #include <iostream>
 #include <sstream>
 #include <boost/multiprecision/cpp_int.hpp>
