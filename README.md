@@ -1,1 +1,1 @@
-Refer to https://esote.net/mathematical-functions.html
+Refer to https://esote.net/
